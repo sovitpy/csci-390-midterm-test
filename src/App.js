@@ -15,6 +15,7 @@ function App() {
           i.  item should be an object with this structure:
             {id: generate_a_random_number, value: newItem}
           ii. Make use of the setItems and setNewItems state methods.
+          iii. Clue: you can use "Math.floor(Math.random() * 100)" to generate a random number.
   */
 
   function addItem() {
