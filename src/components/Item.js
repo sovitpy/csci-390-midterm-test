@@ -3,7 +3,7 @@ import "./Item.css";
 
 function Item(props) {
     return (
-        <span key={props.item.id}>{props.item.value}</span>
+        {/* TODO: Add a span. element to display each item's value */}
     );
 }
 
