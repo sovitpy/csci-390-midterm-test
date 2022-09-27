@@ -2,7 +2,7 @@ import React from 'react';
 
 function Item({ reminder, deleteItem }) {
   return (
-    <li key={reminder.id}>
+    <li>
       {reminder.reminder}
       <button onClick={() => deleteItem(reminder.id)} className="delete-button">
         ❌
