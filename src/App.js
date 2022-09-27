@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Item from './components/Item';
-// TODO: import the Item component
-// TODO: import the Header component
 
 function App() {
   const [newItem, setNewItem] = useState('');
